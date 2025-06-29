@@ -1,15 +1,41 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Opening App...</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body style="background:#121212; color:white; text-align:center; font-family:sans-serif; padding-top:50px;">
-    <h2>Redirecting to app...</h2>
-    <p>Please wait...</p>
-    <script>
-      window.location.href = "intent://open#Intent;scheme=myapp;package=com.chatgptads;end";
-    </script>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Launching app…</title>
+
+  <!-- 1. Send Chrome/Edge/Brave straight to the intent URI -->
+  <meta http-equiv="refresh"
+        content="0;URL='intent://open#Intent;scheme=myapp;package=com.chatgptads;end'" />
+
+  <!-- 2. Polite fallback (shown only if the browser ignores the intent) -->
+  <style>
+    body{font-family:sans-serif;text-align:center;padding:2rem}
+    .btn{display:inline-block;margin-top:1rem;padding:0.8rem 1.2rem;
+         background:#4285f4;color:#fff;border-radius:6px;text-decoration:none}
+  </style>
+</head>
+<body>
+  <h2>Opening the app…</h2>
+  <p>If nothing happens, tap the button below:</p>
+
+  <a class="btn"
+     href="intent://open#Intent;scheme=myapp;package=com.chatgptads;end">
+     Open&nbsp;in&nbsp;App
+  </a>
+  <p style="margin-top:2rem;font-size:90%;color:#777">
+    Need the app?&nbsp;
+    <a href="https://play.google.com/store/apps/details?id=com.chatgptads">
+      Get it on Google Play
+    </a>
+  </p>
+
+  <!-- 3. Extra JS catcher (helps on some browsers/devices) -->
+  <script>
+    setTimeout(function () {
+      window.location.href =
+        "intent://open#Intent;scheme=myapp;package=com.chatgptads;end";
+    }, 200);       // 0.2 s is usually enough
+  </script>
+</body>
 </html>
