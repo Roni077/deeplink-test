@@ -1,0 +1,18 @@
+{
+  "dialogTitle": "DesignLab Official",
+
+  "buttons": [
+    {
+      "title": "Tutorial 📺",
+      "url": "https://youtube.com/shorts/XBhxUikg0Jg?si=COU7TpRdf4-EKgT5"
+    },
+    {
+      "title": "Get PIN 🔑",
+      "url": "https://www.designlabofficial.site/p/verify-page.html"
+    },
+    {
+      "title": "Join Us 💬",
+      "url": "https://t.me/DesignLabOfficialChat"
+    }
+  ]
+}
