@@ -1,0 +1,31 @@
+{
+  "links": {
+    "tutorial": "https://your.updated.tutorial.url",
+    "getPin": "https://go.arlinks.in/2CPtDBF",
+    "joinUs": "https://your.updated.community.url"
+  },
+  
+  "title": "YAMMY MODS PRO",
+  
+  "verification": {
+    "useHours": true,
+    "durationHours": 2,
+    "durationMinutes": 30,
+    "durationSeconds": 0
+  },
+  
+  "adsSystem": {
+    "enabled": true
+  },
+  
+  "expireSystem": {
+    "enabled": true
+  },
+  
+  "blocked_devices": [
+    {
+      "deviceId": "b0987654321fedcba",
+      "deviceName": "Google Pixel 6"
+    }
+  ]
+}
