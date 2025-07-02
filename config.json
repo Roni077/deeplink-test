@@ -1,10 +1,6 @@
 {
     "blocked_devices": [
         {
-            "deviceId": "c43e6d8ba5c5580b",
-            "deviceName": "Samsung Sm-a217f"
-        },
-        {
             "deviceId": "b0987654321fedcba",
             "deviceName": "Google Pixel 6"
         }
