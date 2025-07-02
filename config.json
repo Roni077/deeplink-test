@@ -15,7 +15,7 @@
   },
   
   "adsSystem": {
-    "enabled": true
+    "enabled": false
   },
   
   "expireSystem": {
