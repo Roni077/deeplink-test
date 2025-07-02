@@ -1,31 +1,26 @@
 {
-  "links": {
-    "tutorial": "https://your.updated.tutorial.url",
-    "getPin": "https://go.arlinks.in/2CPtDBF",
-    "joinUs": "https://your.updated.community.url"
-  },
-  
-  "title": "YAMMY MODS PRO",
-  
-  "verification": {
-    "useHours": true,
-    "durationHours": 2,
-    "durationMinutes": 30,
-    "durationSeconds": 0
-  },
-  
-  "adsSystem": {
-    "enabled": false
-  },
-  
-  "expireSystem": {
-    "enabled": true
-  },
-  
-  "blocked_devices": [
-    {
-      "deviceId": "b0987654321fedcba",
-      "deviceName": "Google Pixel 6"
-    }
-  ]
+    "links": {
+        "tutorial_btn_link": "https://t.me/+CKbciC6Vn1JhNjY1",
+        "get_pin_btn_link": "https://go.arlinks.in/2CPtDBF",
+        "join_us_btn_link": "https://t.me/+CKbciC6Vn1JhNjY1"
+    },
+    "title": "YAMMY MODS",
+    "verification": {
+        "useHours": true,
+        "durationHours": 24,
+        "durationMinutes": 0,
+        "durationSeconds": 0
+    },
+    "adsSystem": {
+        "enabled": true
+    },
+    "expireSystem": {
+        "enabled": true
+    },
+    "blocked_devices": [
+        {
+            "deviceId": "",
+            "deviceName": ""
+        }
+    ]
 }
