@@ -12,7 +12,7 @@
         "durationSeconds": 0
     },
     "adsSystem": {
-        "enabled": true
+        "enabled": false
     },
     "expireSystem": {
         "enabled": true
